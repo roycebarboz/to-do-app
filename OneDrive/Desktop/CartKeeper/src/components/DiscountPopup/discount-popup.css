@@ -1,0 +1,103 @@
+.discount-popup .modal-content {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.discount-popup .modal-header {
+  background-color: #0f3460;
+  color: white;
+  border-radius: 12px 12px 0 0;
+  padding: 15px 20px;
+}
+
+.discount-popup .modal-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.discount-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.discount-icon {
+  font-size: 50px;
+  color: #0f3460;
+  margin-bottom: 15px;
+}
+
+.discount-popup h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #0f3460;
+}
+
+.discount-code {
+  display: flex;
+  background-color: #f6f9fc;
+  border: 2px dashed #0f3460;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  width: 100%;
+  max-width: 300px;
+  justify-content: space-between;
+}
+
+.discount-code span {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #0f3460;
+}
+
+.discount-code button {
+  background-color: #0f3460;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.discount-code button:hover {
+  background-color: #1a4980;
+}
+
+.discount-timer {
+  margin-top: 15px;
+}
+
+.discount-timer p {
+  color: #777;
+  font-size: 14px;
+}
+
+.discount-popup .modal-footer {
+  border-top: none;
+  padding: 10px 20px 20px;
+  justify-content: center;
+  gap: 15px;
+}
+
+.discount-popup .modal-footer button {
+  padding: 8px 25px;
+  border-radius: 6px;
+}
+
+.discount-popup .btn-primary {
+  background-color: #0f3460;
+  border-color: #0f3460;
+}
+
+.discount-popup .btn-primary:hover {
+  background-color: #1a4980;
+  border-color: #1a4980;
+}
